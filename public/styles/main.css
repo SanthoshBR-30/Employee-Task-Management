@@ -1,0 +1,158 @@
+html {
+/* 
+  background-color: #b6b7a4;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png"); */
+  
+  background: linear-gradient(110.6deg, rgb(184, 142, 252) 2.2%, rgb(104, 119, 244) 100.2%);  
+  min-height: 1000px;
+  font-family: ' Tahoma', sans-serif;
+  /* font-family: "helvetica neue"; */
+}
+body {
+  
+  /* background-color:  #0c2b23; */
+  display: flex;  
+  flex-direction: column;
+  justify-content: stretch;
+  min-height: 95vh;
+}
+main {
+  text-align: center;
+  flex: 1 0 auto;
+}
+h1 {
+  font-family: ' Tahoma', sans-serif;
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color:  #7f3bf3;
+  text-align: center;
+  font-family: ' Tahoma' sans-serif;
+}
+form.edit {
+  display: flex;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+  margin-left: 0;
+}
+
+p {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 20px;
+  color: #00204a;
+}
+
+form {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button.add {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #7f3bf3;
+  color: #fff;
+  font-size: 30px;
+  border-width: 0;
+}
+
+button.edit {
+  margin-left: 0px;
+  margin-right: 20px;
+  border: none;
+  background: none;
+}
+
+.icon {
+  height: 20px;
+}
+
+input[type="text"] {
+  text-align: left;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 80%;
+  font-family: ' Tahoma' ,sans-serif;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #4b4946;
+}
+
+::placeholder {
+  color:#a683e3;
+  opacity: 1;
+}
+
+
+
+.addButton {
+  font-family: ' Tahoma', sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #7f3bf3;
+  /* float: right;
+  margin-bottom: -100px; */
+  border: 0;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.addButton:hover {background-color: #5a04ed;}
+
+.addButton:active {
+  background-color: #5a04ed;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.userButton{
+  font-family: ' Tahoma' ,sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background:#a683e3 ;
+  /* float: right;
+  margin-bottom: -100px; */
+  border: 0;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  
+}
